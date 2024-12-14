@@ -5,6 +5,7 @@ import PageTwo from './pages/PageTwo.vue'
 import PageThree from './pages/PageThree.vue'
 import PageFour from './pages/PageFour.vue'
 import Footer from './Footer.vue'
+import CrossSVG from './UI/Cross.vue'
 
 export default [
 	Header,
@@ -13,5 +14,6 @@ export default [
 	PageTwo,
 	PageThree,
 	PageFour,
-	Footer
+	Footer,
+	CrossSVG
 ]
