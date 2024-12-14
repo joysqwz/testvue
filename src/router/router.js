@@ -5,6 +5,7 @@ import Main from '@/pages/Main.vue'
 const routes = [
 	{
 		path: '/',
+		base: '',
 		component: Main
 	},
 	{
@@ -15,7 +16,7 @@ const routes = [
 
 const router = createRouter({
 	routes,
-	history: createWebHistory()
+	history: createWebHistory(import.meta.BASE_URL)
 })
 
 export default router

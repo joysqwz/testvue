@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://joysqwz.github.io/testvue",
+  "homepage": "https://github.com/joysqwz/testvue",
   "scripts": {
     "dev": "vite",
     "deploy": "npm run build && gh-pages -d dist",
