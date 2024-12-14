@@ -61,22 +61,7 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import PageOne from '@/components/pages/PageOne.vue'
-import PageTwo from '@/components/pages/PageTwo.vue'
-import PageThree from '@/components/pages/PageThree.vue'
-import PageFour from '@/components/pages/PageFour.vue'
-
 export default {
-	components: {
-		Header,
-		Footer,
-		PageOne,
-		PageTwo,
-		PageThree,
-		PageFour
-	},
 	data() {
 		return {
 			activePage: 1,

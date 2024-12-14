@@ -12,15 +12,13 @@
 	</header>
 </template>
 <script>
-import Modal from './Modal.vue'
-
 export default {
+	name: 'Header',
 	data() {
 		return {
 			showModal: false
 		}
 	},
-	components: { Modal },
 	methods: {
 		changeShow() {
 			this.showModal = !this.showModal

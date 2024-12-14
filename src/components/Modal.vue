@@ -29,7 +29,7 @@
 				</div>
 				<div class="modal__group-input">
 					<label for="email">Адрес электронной почты</label>
-					<input type="email" name="email" id="email" placeholder="qwerty@mail.com">
+					<input type="email" name="email" id="email" placeholder="qwerty@mail.com" autocomplete='email'>
 				</div>
 				<div class="modal__group-input">
 					<label for="reg-password">Пароль</label>
@@ -50,6 +50,7 @@
 </template>
 <script>
 export default {
+	name: 'Modal',
 	data() {
 		return {
 			showModal: true,

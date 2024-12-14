@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-
+	name: 'PageFour',
 }
 </script>
 <style></style>
