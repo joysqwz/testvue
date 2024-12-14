@@ -1,12 +1,17 @@
 <template>
-  <img
-       class="header__logo-image"
-       src="/images/logo.svg"
-       alt="логотип"
-       width="46"
-       height="46" />
+  <router-view></router-view>
 </template>
 
-<script></script>
+<script>
+export default {
+}
 
-<style></style>
+</script>
+
+<style>
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+</style>
