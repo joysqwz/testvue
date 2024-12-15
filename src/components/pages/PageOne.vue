@@ -239,8 +239,6 @@
 	</div>
 </template>
 <script>
-import SkillOption from '../blocks/SkillOption.vue'
-
 export default {
 	name: 'PageOne',
 	data() {
