@@ -6,6 +6,12 @@ import PageThree from './pages/PageThree.vue'
 import PageFour from './pages/PageFour.vue'
 import Footer from './Footer.vue'
 import CrossSVG from './UI/Cross.vue'
+import RadioButton from './blocks/RadioButton.vue'
+import SkillLabelPoint from './blocks/SkillLabelPoint.vue'
+import SkillInputPoint from './blocks/SkillInputPoint.vue'
+import SkillGroupPoint from './blocks/SkillGroupPoint.vue'
+import SkillCircle from './blocks/SkillCircle.vue'
+import SkillOption from './blocks/SkillOption.vue'
 
 export default [
 	Header,
@@ -15,5 +21,11 @@ export default [
 	PageThree,
 	PageFour,
 	Footer,
-	CrossSVG
+	CrossSVG,
+	RadioButton,
+	SkillLabelPoint,
+	SkillInputPoint,
+	SkillGroupPoint,
+	SkillCircle,
+	SkillOption
 ]
