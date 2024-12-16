@@ -2,6 +2,9 @@
 
 .user-profile {
 	position: absolute;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
 	right: var(--container-padding-x);
 
 	&__button-login {
@@ -26,7 +29,54 @@
 			content: "";
 			width: 24px;
 			height: 24px;
-			background: url("./../images/login.svg") center / cover no-repeat;
+			background: url("/images/login.svg") center / cover no-repeat;
+		}
+	}
+
+	&__button-user {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		width: 120px;
+		height: 40px;
+		border-radius: 18px;
+		background: rgb(255, 255, 255, 0.5);
+		cursor: pointer;
+		border: 2px solid var(--color-accent);
+		transition: all 0.2s;
+		box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+
+		@include media.hover {
+			background-color: var(--color-accent200);
+		}
+
+		&-logout {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			width: 40px;
+			height: 40px;
+			border-radius: 14px;
+			background: rgb(255, 255, 255, 0.5);
+			cursor: pointer;
+			border: 2px solid var(--color-accent);
+			transition: all 0.2s;
+			box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.1);
+			overflow: hidden;
+
+			@include media.hover {
+				background-color: var(--color-accent200);
+			}
+
+			&::after {
+				content: "";
+				width: 27px;
+				height: 27px;
+				background: url("/images/logout.svg") center / cover no-repeat;
+			}
 		}
 	}
 
